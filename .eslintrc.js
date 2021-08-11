@@ -28,10 +28,8 @@ module.exports = {
       "error",
         2
       ],
-    "linebreak-style": [
-      "error",
-      "windows"
-    ],
+    "linebreak-style": "off",
+    "no-console": "off",
     "quotes": [
       "error",
       "single"
