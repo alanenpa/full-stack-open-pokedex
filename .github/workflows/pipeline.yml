@@ -27,3 +27,6 @@ jobs:
           command: npm run test:e2e
           start: npm run start-prod
           wait-on: http://localhost:5000
+      - name: deploy to heroku
+        uses: AkhileshNS/heroku-deploy@v3.12.12
+        run: git push heroku master
