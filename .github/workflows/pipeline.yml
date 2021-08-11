@@ -29,4 +29,7 @@ jobs:
           wait-on: http://localhost:5000
       - name: deploy to heroku
         uses: AkhileshNS/heroku-deploy@v3.12.12
-        run: git push heroku master
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: immense-tor-40466
+          heroku_email: alanen.patrik@gmail.com
