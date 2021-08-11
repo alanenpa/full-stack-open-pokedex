@@ -1,1 +1,1 @@
-web: npm run wrong-command
+web: npm run start-prod
