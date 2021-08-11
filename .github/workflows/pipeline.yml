@@ -36,3 +36,4 @@ jobs:
           healthcheck: "https://immense-tor-40466.herokuapp.com/health"
           checkstring: "ok"
           delay: 5
+          rollbackonhealthcheckfailed: true
