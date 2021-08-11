@@ -33,3 +33,6 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: immense-tor-40466
           heroku_email: alanen.patrik@gmail.com
+          healthcheck: "https://immense-tor-40466.herokuapp.com/health"
+          checkstring: "ok"
+          delay: 5
