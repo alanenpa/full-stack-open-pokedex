@@ -48,3 +48,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_BUMP: patch
           INITIAL_VERSION: 0.1.0
+      - name: hello
+        run: echo "hello world"
