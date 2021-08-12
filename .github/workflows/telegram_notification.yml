@@ -1,4 +1,4 @@
-name: notification
+name: Notification
 
 on:
   push:
@@ -14,5 +14,5 @@ jobs:
       - name: Telegram Message Notify
         uses: appleboy/telegram-action@v0.1.1
         with:
-          to: ${{ secrets.TELEGRAM_TO }}
+          to: ${{ secrets.TELEGRAM_TO_ME }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
